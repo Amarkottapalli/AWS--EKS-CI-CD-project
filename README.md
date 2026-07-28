@@ -36,7 +36,7 @@ Developer Push → Jenkins (EC2) → Maven Build → SonarQube Analysis → Qual
 
 ### 1. Jenkins Pipeline — End-to-End Build
 Pipeline #27 completing all 7 stages successfully in 6 min 18 sec: Checkout Code → Build (Maven) → SonarQube Analysis → Quality Gate → Build & Push Docker Image → Deploy (ArgoCD).
-![Jenkins Pipeline](screenshots/jenkins_pipeline.png)
+![Jenkins Pipeline](AWS_EKS_ CICD_Images.zip/jenkins_pipeline.png)
 
 ### 2. SonarQube — Code Quality Gate
 Static analysis on the 2048 Game project (1.7k lines of Java) passed the quality gate cleanly: 0 bugs, 0 vulnerabilities, 0 code smells, 88.4% test coverage, 1.6% duplication.
